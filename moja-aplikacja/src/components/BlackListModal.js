@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-export default function SimpleModal() {
+export default function BlackListModal() {
     const classes = useStyles();
     const [open, setOpen] = useState(false);
 
@@ -26,11 +26,11 @@ export default function SimpleModal() {
         setOpen(false);
     };
 
-    const quotes = ["'The secret of getting ahead is getting started.'",
-        "'It’s hard to beat a person who never gives up.'" ,
-        "'Everything you can imagine is real.'",
-        "'Do one thing every day that scares you.'",
-        "'Hold the vision, trust the process.'"];
+    const quotes = ["'You have to make the good out of the bad because that is all you have got to make it out of.'",
+        "'Happy people do not wake up for breakfast.'" ,
+        "'Try & try until you cannot succeed.'",
+        "'Nothing says 'you're a loser' more than owning a motivational poster about being a winner'",
+        "'Accept that you're just a product, not a gift'"];
 
     const body = (
         <div className={classes.paper} style={{ width: "32%"}}  >
@@ -40,7 +40,7 @@ export default function SimpleModal() {
 
     return (
         <div>
-            <button onClick={handleOpen} className='modalButton'>Click me! Get some extra motivation!</button>
+            <button onClick={handleOpen} className='modalButton'>Click me! Get some extra (de)motivation!</button>
             <Modal open={open} onClose={handleClose}>
                 {body}
             </Modal>

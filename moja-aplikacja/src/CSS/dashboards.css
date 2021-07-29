@@ -1,0 +1,263 @@
+.blackListContainer, .whiteListContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.whiteListContainer {
+    background-color: white;
+}
+.blackListContainer {
+    background-color: black;
+}
+
+.blackListTitle, .whiteListTitle {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 90px;
+    letter-spacing: 3px;
+    margin-top: 150px;
+}
+
+.blackListTitle {
+    color: white;
+}
+
+.whiteListTitle {
+    color: black;
+}
+
+.blackListDescription, .whiteListDescription {
+    font-size: 18px;
+    margin:20px;
+}
+.blackListDescription {
+    color: white;
+    font-weight: 500;
+}
+
+.whiteListDescription {
+    color: black;
+    font-weight: 600;
+}
+
+.addButtonWhite, .addButtonBlack {
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    width: 180px;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.addButtonWhite {
+    background-color: white;
+}
+
+.addButtonBlack {
+    background-color: black;
+}
+
+.boldLinkWhite, .boldLinkBlack {
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boldLinkWhite {
+    color: white;
+}
+
+.boldLinkBlack {
+    color: black;
+    text-shadow: 0 0 1px black;
+}
+
+.editingTask {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonWhite, .buttonBlack {
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    width: 180px;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.buttonWhite, .buttonBlack {
+    border: 3px solid white;
+}
+
+.buttonWhite {
+    background: white;
+    color: black;
+}
+
+.buttonBlack {
+    background: transparent;
+    color: white;
+}
+
+.todoInput {
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border: 2px solid black;
+    box-shadow: 3px 3px dimgray;
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.inputAlert {
+    margin: 10px;
+    font-weight: bold;
+}
+
+::placeholder {
+    padding: 10px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+.iconButton {
+    width: 60px;
+    background: transparent;
+    font-weight: bold;
+    color: black;
+    outline: none;
+    border: none;
+}
+
+.searchButtons {
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 3px 3px dimgray;
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+    background: white;
+    color: black;
+}
+
+.todos {
+    background-color: white;
+    border: 6px solid black;
+    box-shadow: 5px 10px 1px dimgray;
+    border-radius: 20px;
+    margin: 50px;
+    padding: 60px;
+}
+
+.taskElement {
+    width: 410px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.oneBox {
+    font-weight: bold;
+    background-color: #F0F0F0;
+    border-radius: 20px;
+    box-shadow: 3px 3px 1px dimgray;
+    border: 2px solid black;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.modalTitle {
+    font-family: 'Just Another Hand', cursive;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+
+.modalButton {
+    border: 5px solid black;
+    box-shadow: 0 0 15px black;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.taskInfo {
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.showTodos {
+    background-color: lightgray;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.editTask {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+.editingTask {
+    margin: 10px;
+    padding:10px;
+}
+
+.addTodos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.completedInfo {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+.textArea {
+    width: 250px;
+    height: auto;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.taskToRemove {
+    border-radius: 20px;
+    box-shadow: 3px 3px 1px dimgray;
+    border: 2px solid black;
+    width: 300px;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+    font-weight: bold;
+}

@@ -1,6 +1,6 @@
 import StartPage from "./components/StartPage";
 import DashboardToDo from "./components/DashboardToDo";
-import DashboardNotToDo from "./components/DashboardNotToDo";
+import DashboardNotToDo from "./components/DashboradNotToDo";
 import {
   BrowserRouter as Router,
   Route,
@@ -11,9 +11,9 @@ const App = () => {
   return (
       <Router>
         <Switch>
-          <Route exact path="/" component={StartPage}/>
-          <Route path="/whiteList" component={DashboardToDo}/>
-          <Route path="/blackList" component={DashboardNotToDo}/>
+            <Route exact path="/" component={StartPage}/>
+            <Route path="/whiteList" component={DashboardToDo}/>
+            <Route path="/blackList" component={DashboardNotToDo}/>
         </Switch>
       </Router>
   );

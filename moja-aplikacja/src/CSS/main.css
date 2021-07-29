@@ -1,4 +1,4 @@
-@import './startPage.css';
+@import 'startPage.css';
 @import 'dashboards.css';
 
 * {
@@ -7,3 +7,4 @@
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
+
